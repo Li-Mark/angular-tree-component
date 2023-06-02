@@ -117,7 +117,7 @@
     "uuid": "^8.2.0",
     "zone.js": "^0.11.8"
   },
-  "repository": "https://github.com/CirclonGroup/angular-tree-component.git",
+  "repository": "https://github.com/Li-Mark/angular-tree-component.git",
   "bugs": {
     "url": "https://github.com/CirclonGroup/angular-tree-component/issues"
   },
