@@ -87,6 +87,7 @@ export {
   IAllowDragFn,
   LoadingComponent,
   TreeAnimateOpenDirective,
+  TreeMobxAutorunDirective,
   TreeComponent,
   TreeNodeComponent,
   TreeNodeWrapperComponent,
