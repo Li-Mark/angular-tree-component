@@ -89,14 +89,14 @@ const actionMapping: IActionMapping = {
       (click)="tree.treeModel.getFocusedNode().toggleActivated()"
     >
       {{
-        tree.treeModel.getFocusedNode()?.isActive ? "deactivate" : "activate"
+        tree.treeModel.getFocusedNode()?.isActive ? 'deactivate' : 'activate'
       }}
     </button>
     <button
       [disabled]="!tree.treeModel.getFocusedNode()"
       (click)="tree.treeModel.getFocusedNode().toggleExpanded()"
     >
-      {{ tree.treeModel.getFocusedNode()?.isExpanded ? "collapse" : "expand" }}
+      {{ tree.treeModel.getFocusedNode()?.isExpanded ? 'collapse' : 'expand' }}
     </button>
     <button
       [disabled]="!tree.treeModel.getFocusedNode()"
