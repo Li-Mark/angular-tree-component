@@ -19,6 +19,5 @@ jobs:
           scope: "@li-mark"
       - run: npm ci
       - run: npm run build
-      - run: npm run publish:release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
