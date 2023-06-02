@@ -30,4 +30,4 @@ jobs:
       - run: npm build
       - run: publish:release
         env:
-          NODE_AUTH_TOKEN: ${{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}}
+          NODE_AUTH_TOKEN: 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
